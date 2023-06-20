@@ -11,7 +11,7 @@ from aiogram.types import FSInputFile
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token='5891958326:AAEb-PZXDJNPNL2B274C0JfV2827TPAezW4')
+bot = Bot(token='Bot Token')
 
 dp = Dispatcher()
 
