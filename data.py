@@ -3,12 +3,7 @@ import datetime
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 
-connection = psycopg2.connect(user="postgres",
-                                # пароль, который указали при установке PostgreSQL
-                                password="1",
-                                host="127.0.0.1",
-                                port="5432",
-                                database = 'mugen')
+connection = psycopg2.connect()
 
 cursor = connection.cursor()
 
