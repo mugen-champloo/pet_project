@@ -1,4 +1,4 @@
-# pet_project
+# pet_project telegram bot
 
 Мой первый пет-проект.
 
